@@ -13,9 +13,9 @@
     "codeception/stub": "2.0.1",
     "mongodb/mongodb": "^1.4",
     "phpspec/prophecy": "~1.0",
-    "monolog/monolog": "^2.0@dev"
+    "monolog/monolog": "^2.0"
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
       "Xaddax\\": "src/"
