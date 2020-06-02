@@ -13,6 +13,10 @@ final class DummyPaymentsFactory
 
         /** @var Gateway $gateway */
         $gateway = Omnipay::create('Dummy');
+        $gateway->initialize(array(
+               'testMode' => true,
+               'amount' => 0  // dummy gateway has mandatory amount parameter.
+           ));
 
         return $gateway;
     }
